@@ -1,0 +1,164 @@
+// /* =========================================
+//   VARIABLES
+// ======================================== */
+
+// $red: #d02630;
+// $blue: #242b5c;
+// $grey: #f9f8f8;
+// $darkgrey: #363939;
+
+// /* =========================================
+//   RESET
+// ======================================== */
+
+// * {
+//   margin: 0;
+//   padding: 0;
+//   -moz-box-sizing: border-box;
+//   -ms-box-sizing: border-box;
+//   -webkit-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
+
+// ul,
+// li {
+//   margin: 0;
+//   padding: 0;
+// }
+
+// li {
+//   list-style: none;
+// }
+
+// body {
+//   background-color: #FFF;
+//   font-family: 'Futura-Medium', sans-serif;
+//   // overflow:hidden;
+// }
+
+// a {
+//   text-decoration: none;
+//   color: inherit;
+//   border: none;
+//   &:hover {
+//     color: inherit;
+//   }
+// }
+
+// /* =========================================
+//   COMPONENTS
+// ======================================== */
+
+
+// /* =========================================
+//   MIXINS
+// ======================================== */
+
+// @mixin centerCenter {
+//   left: 50%;
+//   top: 50%;
+//   -webkit-transform: translate(-50%, -50%);
+//   -ms-transform: translate(-50%, -50%);
+//   transform: translate(-50%, -50%);
+// }
+
+// @mixin vertCenter {
+//   top: 50%;
+//   -webkit-transform: translateY(-50%);
+//   -ms-transform: translateY(-50%);
+//   transform: translateY(-50%);
+// }
+
+// @mixin horzCenter {
+//   left: 50%;
+//   -webkit-transform: translateX(-50%);
+//   -ms-transform: translateX(-50%);
+//   transform: translateX(-50%);
+// }
+
+// @mixin button {
+//   cursor: pointer;
+// }
+
+// @mixin circle {
+//   -webkit-border-radius: $width/2;
+//   -moz-border-radius: $width/2;
+//   border-radius: $width/2;
+// }
+
+// @mixin backgroundImage($url) {
+//   background-image:url('#{$url}');
+//   background-size: cover;
+//   background-position: center center;
+// }
+
+
+// /* =========================================
+//   FONTS
+// ======================================== */
+
+
+// /* =========================================
+//   TRANSITIONS
+// ======================================== */
+
+// @mixin keyframe ($animation_name) {
+//   @-webkit-keyframes $animation_name {
+//     @content;
+//   }
+
+//   @-moz-keyframes $animation_name {
+//     @content;
+//   }
+
+//   @-o-keyframes $animation_name {
+//     @content;
+//   }
+
+//   @keyframes $animation_name {
+//     @content;
+//   }
+// }
+
+// @mixin animation ($delay, $duration, $animation) {
+//   -webkit-animation-delay: $delay;
+//   -webkit-animation-duration: $duration;
+//   -webkit-animation-name: $animation;
+//   -webkit-animation-fill-mode: forwards;
+//   /* this prevents the animation from restarting! */
+//   -moz-animation-delay: $delay;
+//   -moz-animation-duration: $duration;
+//   -moz-animation-name: $animation;
+//   -moz-animation-fill-mode: forwards;
+//   /* this prevents the animation from restarting! */
+//   animation-delay: $delay;
+//   animation-duration: $duration;
+//   animation-name: $animation;
+//   animation-fill-mode: forwards;
+//   /* this prevents the animation from restarting! */
+// }
+
+// /*
+//   Example usage: 
+//   @include animation(10s, 5s, changecolour)
+//  */
+
+// @include keyframe(fadein) {
+//   0% {
+//     opacity: 0;
+//   }
+
+//   100% {
+//     opacity: 1;
+//   }
+// }
+
+// @include keyframe(fadeout) {
+//   0% {
+//     opacity: 1;
+//   }
+
+//   100% {
+//     opacity: 0;
+//   }
+// }

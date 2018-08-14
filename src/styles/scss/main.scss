@@ -1,28 +1,15 @@
-.App {
-  text-align: center;
-}
+// HTML5 Boilerplate
+@import "normalize";
+@import "helpers";
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+// Plugins
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+// Styles
+@import "global";
+@import "ui";
+@import "layout";
 
-.App-title {
-  font-size: 1.5em;
-}
+// Modules
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+// Media Queries
+@import "mediaqueries";
