@@ -4,8 +4,8 @@ class Test extends Component {
   render() {
     return(
       <div className="content-test">
-        <p className="App-intro">
-          THIS IS A TEST PAGE
+        <p className="app-intro">
+          Test page
         </p>
       </div>
     )
